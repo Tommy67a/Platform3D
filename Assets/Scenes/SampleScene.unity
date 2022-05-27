@@ -575,3 +575,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 2
   rig: {fileID: 2023197240}
+  jumpForce: 5
