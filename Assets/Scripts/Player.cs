@@ -9,6 +9,8 @@ public class Player : MonoBehaviour
     public Rigidbody rig;
     public float jumpForce;
 
+    public int score;
+
     private bool isGrounded;
    
     void Update()
@@ -49,5 +51,10 @@ public class Player : MonoBehaviour
     public void GameOver ()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void AddScore (int amount)
+    {
+        score += amount;
     }
 }
