@@ -10,6 +10,7 @@ public class Player : MonoBehaviour
     public float jumpForce;
 
     public int score;
+    public UI ui;
 
     private bool isGrounded;
    
@@ -56,5 +57,6 @@ public class Player : MonoBehaviour
     public void AddScore (int amount)
     {
         score += amount;
+        ui.SetScoreText(score);
     }
 }
