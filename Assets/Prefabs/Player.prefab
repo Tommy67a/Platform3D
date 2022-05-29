@@ -80,6 +80,11 @@ MonoBehaviour:
   moveSpeed: 2
   rig: {fileID: 8375364175629224886}
   jumpForce: 5
+  score: 0
+  ui: {fileID: 0}
+  gameOverSound: {fileID: 0}
+  jumpSound: {fileID: 0}
+  startSound: {fileID: 0}
 --- !u!1001 &8375364175275377954
 PrefabInstance:
   m_ObjectHideFlags: 0

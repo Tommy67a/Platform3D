@@ -178,12 +178,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &53579852 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4363567253037651983, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
   m_PrefabInstance: {fileID: 53579851}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &83163654 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2190163857515114063, guid: 143639bbb58892b4e84748bffad5a895, type: 3}
+  m_PrefabInstance: {fileID: 2190163857461384265}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &141195961
 PrefabInstance:
@@ -240,6 +249,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &141195962 stripped
@@ -302,12 +315,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &144636155 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4363567253037651983, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
   m_PrefabInstance: {fileID: 144636154}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &318465159 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 6292849134490910816, guid: 143639bbb58892b4e84748bffad5a895, type: 3}
+  m_PrefabInstance: {fileID: 2190163857461384265}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &421833043
 PrefabInstance:
@@ -438,6 +460,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &441586935 stripped
@@ -574,6 +600,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &541671261 stripped
@@ -636,6 +666,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (27)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &596201736 stripped
@@ -703,6 +737,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &607747050 stripped
@@ -765,6 +803,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &610129924 stripped
@@ -827,6 +869,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (22)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &625409416 stripped
@@ -841,6 +887,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2955869567428695535, guid: ec51da2a84f2d7b4eb17a1f727d2285a, type: 3}
+      propertyPath: moveDistance
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955869567428695535, guid: ec51da2a84f2d7b4eb17a1f727d2285a, type: 3}
+      propertyPath: moveDirection.y
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6383586606031820639, guid: ec51da2a84f2d7b4eb17a1f727d2285a, type: 3}
       propertyPath: m_RootOrder
       value: 5
@@ -946,6 +1000,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (20)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &807357883 stripped
@@ -1008,6 +1066,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &842226061 stripped
@@ -1070,12 +1132,21 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &843413837 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4363567253037651983, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
   m_PrefabInstance: {fileID: 843413836}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &935099931 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2190163857201097298, guid: 143639bbb58892b4e84748bffad5a895, type: 3}
+  m_PrefabInstance: {fileID: 2190163857461384265}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &947042626
 PrefabInstance:
@@ -1132,6 +1203,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &947042627 stripped
@@ -1150,6 +1225,18 @@ PrefabInstance:
       propertyPath: ui
       value: 
       objectReference: {fileID: 2070377430}
+    - target: {fileID: 8375364175629224884, guid: 649fbde9d07c6974d9d90778dd23d303, type: 3}
+      propertyPath: jumpSound
+      value: 
+      objectReference: {fileID: 318465159}
+    - target: {fileID: 8375364175629224884, guid: 649fbde9d07c6974d9d90778dd23d303, type: 3}
+      propertyPath: startSound
+      value: 
+      objectReference: {fileID: 1427146244}
+    - target: {fileID: 8375364175629224884, guid: 649fbde9d07c6974d9d90778dd23d303, type: 3}
+      propertyPath: gameOverSound
+      value: 
+      objectReference: {fileID: 83163654}
     - target: {fileID: 8375364175629224888, guid: 649fbde9d07c6974d9d90778dd23d303, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1255,6 +1342,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (26)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &999286755 stripped
@@ -1526,6 +1617,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &1231053136 stripped
@@ -1588,6 +1683,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &1286511741 stripped
@@ -1650,6 +1749,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &1306726103 stripped
@@ -1926,6 +2029,11 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!82 &1427146244 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 2190163858854908493, guid: 143639bbb58892b4e84748bffad5a895, type: 3}
+  m_PrefabInstance: {fileID: 2190163857461384265}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1469296629
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2043,6 +2151,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &1476098967 stripped
@@ -2226,6 +2338,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (23)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &1630711355 stripped
@@ -2245,13 +2361,13 @@ PrefabInstance:
       value: Flag
       objectReference: {fileID: 0}
     - target: {fileID: 6308789419581780092, guid: 257a85aa496fecf4082f0cce213460c5, type: 3}
-      propertyPath: lastLevel
-      value: 0
+      propertyPath: flag
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6308789419581780092, guid: 257a85aa496fecf4082f0cce213460c5, type: 3}
-      propertyPath: nextSceneName
-      value: Level2
-      objectReference: {fileID: 0}
+      propertyPath: flagSound
+      value: 
+      objectReference: {fileID: 1427146244}
     - target: {fileID: 6665124157793719540, guid: 257a85aa496fecf4082f0cce213460c5, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -2353,6 +2469,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &1832034189 stripped
@@ -2415,6 +2535,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &1860516601 stripped
@@ -2477,6 +2601,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &1956906830 stripped
@@ -2539,6 +2667,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &1967558439 stripped
@@ -2601,6 +2733,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (25)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &2024094518 stripped
@@ -2663,6 +2799,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &2028212746 stripped
@@ -2725,6 +2865,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &2028279047 stripped
@@ -2787,6 +2931,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &2047258975 stripped
@@ -2957,6 +3105,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Coin (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 9070743776575731892, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
+      propertyPath: coinSound
+      value: 
+      objectReference: {fileID: 935099931}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
 --- !u!4 &2142880132 stripped
@@ -2964,3 +3116,60 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4363567253037651983, guid: f2c069fec42b61d42ad4f3cdb0ab0619, type: 3}
   m_PrefabInstance: {fileID: 2142880131}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2190163857461384265
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2190163857438921428, guid: 143639bbb58892b4e84748bffad5a895, type: 3}
+      propertyPath: m_Name
+      value: Sounds
+      objectReference: {fileID: 0}
+    - target: {fileID: 2190163857438921431, guid: 143639bbb58892b4e84748bffad5a895, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2190163857438921431, guid: 143639bbb58892b4e84748bffad5a895, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2190163857438921431, guid: 143639bbb58892b4e84748bffad5a895, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2190163857438921431, guid: 143639bbb58892b4e84748bffad5a895, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2190163857438921431, guid: 143639bbb58892b4e84748bffad5a895, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2190163857438921431, guid: 143639bbb58892b4e84748bffad5a895, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2190163857438921431, guid: 143639bbb58892b4e84748bffad5a895, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2190163857438921431, guid: 143639bbb58892b4e84748bffad5a895, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2190163857438921431, guid: 143639bbb58892b4e84748bffad5a895, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2190163857438921431, guid: 143639bbb58892b4e84748bffad5a895, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2190163857438921431, guid: 143639bbb58892b4e84748bffad5a895, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 143639bbb58892b4e84748bffad5a895, type: 3}

@@ -5,12 +5,7 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
     public float rotateSpeed;
-    public AudioSource audioSource;
-
-    private void Start()
-    {
-        audioSource = GetComponent<AudioSource>();
-    }
+    public AudioSource coinSound;     
 
     void Update()
     {
@@ -22,7 +17,7 @@ public class Coin : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             other.GetComponent<Player>().AddScore(1);
-            audioSource.Play();
+            coinSound.Play();
             Destroy(gameObject);
         }
     }

@@ -12,8 +12,17 @@ public class Player : MonoBehaviour
     public int score;
     public UI ui;
 
+    public AudioSource gameOverSound;
+    public AudioSource jumpSound;
+    public AudioSource startSound;
+
     private bool isGrounded;
-   
+
+    private void Awake()
+    {
+        startSound.Play();
+    }
+
     void Update()
     {
         float x = Input.GetAxis("Horizontal") * moveSpeed;
@@ -32,6 +41,7 @@ public class Player : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded == true)
         {
             isGrounded = false;
+            jumpSound.Play();
             rig.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
         }
 
@@ -50,8 +60,9 @@ public class Player : MonoBehaviour
     }
 
     public void GameOver ()
-    {
+    {        
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        gameOverSound.Play();
     }
 
     public void AddScore (int amount)

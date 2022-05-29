@@ -60,6 +60,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1c44014e4a16fe246a491ff7e83129cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  flagSound: {fileID: 0}
+  nextSceneName: Level2
+  lastLevel: 0
 --- !u!1001 &7141727468606958017
 PrefabInstance:
   m_ObjectHideFlags: 0
