@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -7,20 +8,27 @@ public class Player : MonoBehaviour
 {
     public float moveSpeed;
     public Rigidbody rig;
-    public float jumpForce;
-
-    public int score;
-    public UI ui;
+    public float jumpForce;    
 
     public AudioSource gameOverSound;
     public AudioSource jumpSound;
     public AudioSource startSound;
+
+    public UI ui;
+    public int score;
+    [SerializeField] TMP_Text scoreText;
+    [SerializeField] private IntSO scoreSO;
 
     private bool isGrounded;
 
     private void Awake()
     {
         startSound.Play();
+    }
+
+    private void Start()
+    {
+        scoreText.text = scoreSO.Value + "";
     }
 
     void Update()
@@ -67,7 +75,7 @@ public class Player : MonoBehaviour
 
     public void AddScore (int amount)
     {
-        score += amount;
-        ui.SetScoreText(score);
+        scoreSO.Value += amount;
+        ui.SetScoreText(scoreSO.Value);
     }
 }
