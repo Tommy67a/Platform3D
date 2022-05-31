@@ -1261,6 +1261,10 @@ PrefabInstance:
       propertyPath: gameOverSound
       value: 
       objectReference: {fileID: 83163654}
+    - target: {fileID: 8375364175629224887, guid: 649fbde9d07c6974d9d90778dd23d303, type: 3}
+      propertyPath: m_Material
+      value: 
+      objectReference: {fileID: 13400000, guid: 9d4236d360bbc9f48826c9c15b4b792f, type: 2}
     - target: {fileID: 8375364175629224888, guid: 649fbde9d07c6974d9d90778dd23d303, type: 3}
       propertyPath: m_Name
       value: Player
