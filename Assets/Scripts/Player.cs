@@ -8,7 +8,8 @@ public class Player : MonoBehaviour
 {
     public float moveSpeed;
     public Rigidbody rig;
-    public float jumpForce;    
+    public float jumpForce;
+    public Vector3 playerStartPos;
 
     public AudioSource gameOverSound;
     public AudioSource jumpSound;
@@ -24,6 +25,7 @@ public class Player : MonoBehaviour
     private void Awake()
     {
         startSound.Play();
+        playerStartPos = transform.position;
     }
 
     private void Start()
@@ -68,8 +70,9 @@ public class Player : MonoBehaviour
     }
 
     public void GameOver ()
-    {        
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    {
+        // SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        transform.position = playerStartPos;
         gameOverSound.Play();
     }
 
